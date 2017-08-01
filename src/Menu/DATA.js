@@ -1,5 +1,5 @@
 export default {
-  title: "Lous Tex Mex",
+  company: [{title: "Lous Tex Mex"}],
   address: {
     street: '66212 El Paso Ave.',
     suite: 'Suite 4B',

@@ -3,6 +3,8 @@
   flex-flow: row wrap;
   justify-content: space-around;
   border: solid green;
+  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .menu-item {
@@ -33,4 +35,82 @@
   flex-direction: row;
   align-items: center;
   max-width: 30px;
+}
+
+
+
+.hero-image {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://www.thejackfruitcompany.com/wp-content/uploads/2015/09/TexMex-jackfruit-tacos.jpg");
+  height: 1000px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-title {
+	margin: 50px auto;
+	text-align: center;
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	color: ##ecf0f1;
+	opacity: 1;
+	font: 700 80px 'Bitter';
+}
+
+button {
+  background-color: rgba(73,73,73,0.6);
+  color: white;
+  border: solid #e74c3c 1px;
+  padding: 14px 40px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #e74c3c;
+}
+
+
+.navlinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+.navlinks li {
+  float: left;
+  border-right: solid #bdc3c7 1px;
+  font-size: 20px;
+  padding: 5px;
+  padding-right: 50px;
+  color: white;
+}
+
+.Link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.Link:hover {
+  background-color: #e74c3c;
+  color: black;
 }
