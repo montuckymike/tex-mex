@@ -21,9 +21,16 @@
 
 .thumbnail img {
   width: 100%;
-  border: solid blue;
+  /*border: solid blue;*/
 }
 
 .caption  {
   border: dotted red;
+}
+
+.price-level {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 30px;
 }

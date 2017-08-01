@@ -7,6 +7,7 @@ export default {
     state: 'TX',
     zip: '73301'
   },
+  priceTag: "https://cdn4.iconfinder.com/data/icons/banking-icons-3/100/1-512.png",
   phone: '1-223-782-9090',
   items: [
     { name: 'Death Enchalida', price: 12.50, category: 'Spicy Specials', spiceLevel: 10, img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWbV-Ma2MO87XbXdV91M0rmfzCeR4gP4eKLvtqOssfInkM6C_SXg' },
