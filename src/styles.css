@@ -2,7 +2,6 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  border: solid green;
   margin-top: 50px;
   padding-top: 50px;
 }
@@ -18,7 +17,6 @@
 
   /*width: calc(25% - 20px);*/
   margin: 10px;
-  border: solid red;
 }
 
 .thumbnail img {
@@ -27,7 +25,6 @@
 }
 
 .caption  {
-  border: dotted red;
 }
 
 .price-level {
@@ -113,4 +110,23 @@ button:hover {
 .Link:hover {
   background-color: #e74c3c;
   color: black;
+}
+
+.hero-image-about {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2008/11/21/SedateGames460.jpg");
+  height: 1000px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.content-items {
 }

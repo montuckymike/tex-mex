@@ -3,8 +3,6 @@ import DATA from "./DATA.js";
 import 'bootstrap/dist/css/bootstrap.css';
 
 
-var price = "https://cdn4.iconfinder.com/data/icons/banking-icons-3/100/1-512.png"
-
 const MenuItems = () => {
 
   const convertIntoCurrency = (N) => {N=parseFloat(N);if(!isNaN(N))N=N.toFixed(2);else N='0.00';return "$"+N;};

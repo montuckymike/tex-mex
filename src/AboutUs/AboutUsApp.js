@@ -1,9 +1,12 @@
 import React from "react";
+import AboutHero from "./AboutHero";
+import Content from "./Content";
 
 const AboutUsApp = () => {
   return(
     <div>
-      <h1> Hello from About Us </h1>
+      <AboutHero />
+      <Content />
     </div>
   )
 }
