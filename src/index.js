@@ -5,12 +5,14 @@ import "./styles.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import AboutUsApp from './AboutUs/AboutUsApp';
-import MenuApp from "./Menu/MenuApp";
+import App from "./App";
+import MenuHero from "./components/MenuHero";
+
 
 const Home = () => {
   return(
-    <div className="jumbotron">
-      <h1> Hello from home </h1>
+    <div>
+      <MenuHero />
     </div>
   )
 }
@@ -25,7 +27,7 @@ ReactDOM.render((
         <div className="index">
           <Route exact path="/" component={Home} />
           <Route path="/AboutUs" component={AboutUsApp} />
-          <Route path="/Menu" component={MenuApp} />
+          <Route exact path="/" component={App} />
         </div>
     </div>
   </Router>
